@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'fontGame';
+    src: url('./fonts/Pony.ttf');
+}
+
+.diceNode:hover, .diceNode:focus {
+    border: 5px solid rgb(51, 239, 85);
+}
+
+.diceNode {
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none;
+}
+
+.game {
+    font-family: fontGame;
+}
+
+.active {
+    border: 5px solid rgb(51, 239, 85);
+}
